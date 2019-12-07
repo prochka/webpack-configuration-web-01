@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+.main{
+    padding-top: 50px;
+    min-height: 250px;
+    background-image: url(../images/bgr_main.png);
+}
+h1, h3{
+    text-align: center;
+}
+h1{
+    color: cyan;
+    text-transform: uppercase;
+}
+h3{
+    color: ghostwhite;
+}
+hr{
+    height: 1px;
+    background-color: #fff;
+    width: 67%;
+}
+.text{
+    border: 1px solid #ccc;
+    padding: 20px 50px;
+    margin-top: 50px;
+    p{
+        font-family: "Open Sans";
+        font-size: 12px;
+    }
+    p:nth-of-type(1){
+        margin-bottom: 0;
+    }
+}

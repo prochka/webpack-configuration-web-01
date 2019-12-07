@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+<div>
+    <div class="container-fluid">
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h1>Конфигурация Webpack 4</h1>
+                        <h3>для быстрого развертывания структуры приложения</h3>
+                        <br>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="text">
+                        <p>Author: Oleg Dvorezky</p>
+                        <p>e-mail: <a href="mailto:generation-tech@yandex.ru">generation-tech@yandex.ru</a></p>
+                        <br>
+                        <h5>How to use Configuration WEBPACK-4</h5>
+                        <p>1.Download Configuration WEBPACK-4 from GitHub;</p>
+                        <p>2.Install Node Modules: <code>npm i</code>;</p>
+                        <p>3.Run the template: <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>npm run start</code> (server startup)<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>npm run dev </code>(create a dist directory and expand the project file structure)<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>npm run build </code>(structure for production)
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>
